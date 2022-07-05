@@ -5,6 +5,7 @@ import * as bodyParser from "body-parser";
 import { Server } from "socket.io";
 import http from "http";
 import "./config/sqlConfig";
+import path from "path";
 
 const app = express();
 const port = 3030;

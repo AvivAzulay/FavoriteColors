@@ -1,0 +1,28 @@
+.colors-container {
+  user-select: none;
+  h1 {
+    text-align: center;
+  }
+  .colors-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    .color {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      cursor: pointer;
+      .votes {
+        position: absolute;
+        bottom: 0;
+        background-color: pink;
+        user-select: none;
+        .vote-amount {
+          margin: 0;
+          padding: 0.2rem;
+        }
+      }
+    }
+  }
+}
